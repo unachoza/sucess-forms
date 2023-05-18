@@ -1,4 +1,5 @@
 import { InputHTMLAttributes, FC } from "react";
+import "./form-input.css"
 
 // import "./form-input.css";
 

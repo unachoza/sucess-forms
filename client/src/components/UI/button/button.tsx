@@ -1,3 +1,5 @@
+import { text } from "stream/consumers";
+import "./button.css"
 const Button = (onClick: any, text: string, size: number): JSX.Element => {
   return (
     <button type="button" onClick={onClick} style={{ scale: size }}>
@@ -6,3 +8,10 @@ const Button = (onClick: any, text: string, size: number): JSX.Element => {
   );
 };
 export default Button;
+
+
+/*properties
+ text
+ color
+ outline
+ onClick */
